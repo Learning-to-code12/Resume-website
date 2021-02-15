@@ -1,0 +1,126 @@
+/* linear-gradient(
+    rgba(255, 255, 255, 0.45),
+    rgba(255, 255, 255, 0.45)
+  ), */
+  /* ../images/projectBackground.jpg */
+.background{
+  background:  url(../images/projectBackground.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.row{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.2);
+    /* opacity: 0.5; */
+}
+h2{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: white;
+}
+h3{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: white;
+}
+h5{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+}
+h1{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+h4{
+  margin-top: 2px;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  color: white;
+}
+
+hr{
+  border-top:2px dotted #e8eae6;
+}
+
+
+.animate__animated.animate__bounce {
+  --animate-duration: 4s;
+}
+
+
+/* projects */
+.projectHeading h1{
+  font-weight: 700;
+  color: #fff;
+  font-size: 50px;
+}
+.projectHeading{
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.projectHeading img{
+  padding-left: 50px;
+  padding-top: 30px;
+}
+.more h4{
+  color: white;
+  font-weight: 600;
+}
+.more{
+
+  padding-bottom: 20px;
+  margin-top: 40px;
+  text-align: center;
+}
+.projects .row{
+    margin: 20px;
+    transition: transform 0.5s;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+    height: 280px;
+}
+.projects .row h3{
+  font-weight: 900;
+  color: #010B40;
+  font-size: 25px;
+}
+
+.projects .row:hover{
+  transform: translateY(-5px);
+}
+.projects img{
+  flex-basis: 50%;
+  max-width: 300px;
+  width: 100%;
+  /* max-height: 200px; */
+  height: 100%;
+}
+
+.content{
+  margin: 20px 40px 10px 60px;
+  /* width: 300px; */
+  flex-basis: 50%;
+}
+
+.img-col{
+  flex-basis: 30%;
+}
+
+a{
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  color: black;
+}
+
+@media only screen and (max-width: 600px){
+  .projects .row{
+      height: 350px;
+  }
+
+}
